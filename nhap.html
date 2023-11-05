@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang chủ</title>
+</head>
+<body>
+    <h1>Trang chủ - Bán sách</h1>
+
+    <!-- Đăng nhập -->
+    <div>
+        <h2>Đăng nhập</h2>
+        <form action="login" method="post">
+            <label for="username">Tên đăng nhập:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Đăng nhập">
+        </form>
+    </div>
+
+    <!-- Đăng ký -->
+    <div>
+        <h2>Đăng ký</h2>
+        <form action="register" method="post">
+            <label for="username">Tên đăng nhập:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Đăng ký">
+        </form>
+    </div>
+
+    <!-- Danh mục sản phẩm -->
+    <div>
+        <h2>Danh mục sản phẩm</h2>
+        <!-- Hiển thị danh sách các danh mục sản phẩm -->
+        <ul>
+            <li><a href="category?id=1">Danh mục 1</a></li>
+            <li><a href="category?id=2">Danh mục 2</a></li>
+            <li><a href="category?id=3">Danh mục 3</a></li>
+            <!-- Thêm các danh mục khác tương tự -->
+        </ul>
+    </div>
+
+    <!-- Giỏ hàng -->
+    <div>
+        <h2>Giỏ hàng</h2>
+        <!-- Hiển thị nội dung giỏ hàng -->
+        <!-- Thêm các chức năng quản lý giỏ hàng -->
+    </div>
+</body>
+</html>
